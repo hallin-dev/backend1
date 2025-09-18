@@ -4,7 +4,7 @@ const { MongoClient } = require('mongodb');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const uri = "mongodb+srv://h41lin_business:20090523697477853141592653589793238462643382@cluster0.wulbrc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://h41lin_business:<db_password>@cluster0.wulbrc8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const client = new MongoClient(uri);
 
