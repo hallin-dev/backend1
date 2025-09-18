@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-const SECRET_KEY = "your_secret_key";
+const SECRET_KEY = "kai_no1lol3141592653589793238462643382";
 
 app.post('/update-time', (req, res) => {
     const auth = req.headers.authorization;
